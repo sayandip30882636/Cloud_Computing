@@ -1,0 +1,26 @@
+>chmod 400 neel.pem
+>ssh -i neel.pem @buntu (public ipv4)
+yes
+>sudo apt update
+>sudo apt install python3 python3-pip python3-virtualenv
+Y
+>sudo apt install git
+>python3 -m virtualenv venv
+>source venv/bin/activate
+>git clone ...............(website name)
+>ls
+>cd (name came in ls)
+    next line ls
+>cat app.py
+>nano app.py (to change 8080 to 80)
+    Ctrl X yes
+>cat app.py (to check whether it changed or not)
+>pip install -r requirements.txt
+     Check instance ID > Security > Security groups(link) 
+                Edit Inbound rule
+                    HTTP          0.0.0.0/0  (Save rules)
+>pip install gunicorn
+>which gunicorn
+    home/ubuntu/venv/bin/gunicorn
+>sudo home/ubuntu/venv/bin/gunicorn --bind 0.0.0.0:80 app:app
+ IPV4 address (run this)
