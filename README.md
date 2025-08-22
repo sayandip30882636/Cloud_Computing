@@ -12,7 +12,7 @@ The repository is organized to separate learning materials from the core algorit
 
 ```
 .
-├── materials/
+├── CloudComputingTheory&Practice[pdf]
 │   └── ... (Contains lecture notes, diagrams, articles, and other resources)
 └── webapp-hosting-algo.txt
     └── (A detailed step-by-step algorithm for hosting a web application)
